@@ -18,16 +18,16 @@ personForm.onsubmit = (ev) => {
     const age = form.age.value;
     const birthplace = form.birthplace.value;
 
-    const em = document.createElement('li');
-    em.textContent = personName;
+    // const em = document.createElement('li');
+    // em.textContent = personName;
 
-    const colorDiv = renderColor(hairColor);
+    // const colorDiv = renderColor(hairColor);
 
-    const ageDiv = document.createElement('li');
-    ageDiv.textContent = age;
+    // const ageDiv = document.createElement('li');
+    // ageDiv.textContent = age;
 
-    const birthplaceDiv = document.createElement('li');
-    birthplaceDiv.textContent = birthplace;
+    // const birthplaceDiv = document.createElement('li');
+    // birthplaceDiv.textContent = birthplace;
 
     // details.innerHTML = `
     // <ul>
